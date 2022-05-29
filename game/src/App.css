@@ -1,0 +1,109 @@
+
+/* .App{
+  padding: 10px;
+  margin: 20px;
+} */
+.Cool-colour{
+  width: 100px;
+  height:100px;
+  border-radius: 50px;
+ margin: 15px;
+  
+}
+.ballons-color :hover{
+  box-shadow: rgba(0, 0, 0, 0.35) 0px 5px 15px;
+
+}
+.display-Ballons{
+  display: grid;
+  grid-template-columns: 40% 40% 40%;
+  align-items: center;
+
+
+}
+.ShootGame{
+  display:  flex;
+  /* margin-top: 45px; */
+  position: relative;
+  top: 150px;
+margin-left: 30px;
+padding: 25px;
+justify-content: space-evenly;
+background-color: whitesmoke;
+box-shadow: rgba(0, 0, 0, 0.35) 0px 5px 15px;
+max-width: 90%;
+gap: 20px;
+ 
+}
+.text{
+display: inline-block;
+margin-left: 35px;
+margin-top: 20px;
+}
+.displayBox{
+  border: 1px solid black;
+  width: 40em;
+  height: 16em;
+  margin: auto;
+  padding: 5px;
+  display: grid;
+grid-template-columns: 20% 20% 20%;
+}
+.Coolcolour1{
+
+
+  width: 100px;
+  height:100px;
+  border-radius: 50px;
+ margin: 15px;
+}
+
+.form-details{
+display:  flex;
+justify-content: center;
+gap: 10px;
+margin-right: 30px;
+}
+
+.ballons-nav{
+  position: fixed;
+  width: 100%;
+  top:0;
+  display: flex;
+  justify-content: space-evenly;
+  place-items: center;
+  background-color: #FA8072;
+}
+.form-details > input{
+  width: 300px;
+  height: 60px;
+  border-radius: 25px;
+  padding: 0px 20px;
+}
+
+.form-details > button{
+  width: 8em;
+  height:50px;
+margin-top: 5px;
+  margin-bottom: 5px;
+  font-size: 20px;
+  border-radius: 25px;
+  border: none;
+}
+
+
+.bottom-bar{
+  display: flex;
+  justify-content: space-around;
+
+  background-color: #20B2AA;
+position: fixed;
+width: 100%;
+bottom: 0;
+}
+.details{
+  display: flex;
+  justify-content: center;
+  gap: 20px;
+  
+}
